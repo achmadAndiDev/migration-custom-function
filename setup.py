@@ -10,5 +10,7 @@ setup(
     author='Achmad Andi Setyawan',
     author_email='mas.achmadandi@gmail.com',
 
-    py_modules=['transform_data'],
+    py_modules=['migration_custom_function'],
 )
+
+# pip install git+git://github.com/achmadAndiDev/migration-custom-function.git#egg=transform_data
