@@ -1,6 +1,6 @@
 from setuptools import setup
 
-from transform_data import __version__
+from migration_custom_function import __version__
 
 setup(
     name='migration_custom_function',

@@ -1,7 +1,10 @@
 import random
 import string
 
+__version__ = '1.0'
 class TransformData :
+    
+    @staticmethod
     def replace_privacy_columns(privacy_columns, table, row) :
         
         if table not in privacy_columns :
@@ -21,4 +24,3 @@ class TransformData :
                 
         return row
     
-__version__ = '1.0'
